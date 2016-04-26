@@ -62,65 +62,69 @@
 	<!--{hook/global_footer}-->
     <!--{if $_G['basescript'] === 'portal' && CURMODULE === 'index'}-->
     <div class="main-info">
-    <dl><dt>找了那么久，找不到合适的Discuz资源了？</dt>
-        <dd>不妨把你的想法跟我们说说看呢？<a rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3035511681&amp;site=qq&menu=yes" class="showbox" target="_blank">联系我们</a>
+    <dl><dt>有时你分给别人的越多，自己得到的也越多。</dt>
+        <dd>不妨把你的好资源分享出来给我们看看！<a onclick="showWindow('nav', this.href, 'get', 0)" href="forum.php?mod=misc&amp;action=nav" class="showbox">分享出来</a>
         </dd>
     </dl>
 </div>
 <!--{/if}-->
 <!--footers-->
 <div class="footer">
-    <div class="f_Grid1">
+    <div class="f_Grid1 cl">
         <div class="f_Box1 z">
             <div class="f_t">关于我们</div>
             <ul id="menu-ifanr-footer-1" class="dmenu">
-                <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">主题定制</a>
+                <li><a target="_blank" href="portal.php?mod=view&aid=29">关于岛国</a>
                 </li>
-                <li><a onclick="showWindow('nav', this.href, 'get', 0)" href="forum.php?mod=misc&action=nav">主题投稿</a>
+                <li><a target="_blank" href="portal.php?mod=view&aid=29">联系我们</a>
                 </li>
-                <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">广告服务</a>
+                <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1055198140&site=DZFUNS&menu=yes">广告服务</a>
                 </li>
             </ul>
         </div>
         <div class="f_Box2 z">
             <div class="f_t">帮助文档</div>
             <ul id="menu-ifanr-footer-2" class="dmenu">
-                <li><a href="forum.php?mod=forumdisplay&fid=44" title="新手聊吧" target="_blank">新手聊吧</a>
+                <li><a href="portal.php?mod=view&aid=32" title="关于积分" target="_blank">关于积分</a>
                 </li>
-                <li><a href="forum.php?mod=forumdisplay&fid=45" title="技术分享" target="_blank">技术分享</a>
                 </li>
-                <li><a href="forum.php?mod=forumdisplay&fid=46" title="Discuz教程" target="_blank">Discuz教程</a>
+                <li><a href="portal.php?mod=view&aid=30" title="资源下载" target="_blank">资源下载</a>
+                </li>
+                <li><a href="portal.php?mod=view&aid=31" title="上传资源" target="_blank">上传资源</a>
                 </li>
             </ul>
         </div>
         <div class="f_Box3 z">
             <div class="f_t">我们的服务</div>
             <div id="xztag">
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="discuz安装">discuz安装</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="discuz搬家" >discuz搬家</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="discuz疑难解决" >discuz疑难解决</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="mysql表修复" >mysql表修复</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="discuz模板定制" >discuz模板定制</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="discuz模板二次开发">discuz模板二次开发</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="企业站建设" >企业站建设</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="技术支持" >技术支持</a>
-  <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes"  title="联系我们" >联系我们</a>
+              <a href="forum.php?mod=forumdisplay&fid=37"  title="VR手机游戏下载">VR手机游戏下载</a>
+              <a href="forum.php?mod=forumdisplay&fid=38"  title="VR电脑游戏下载" >VR电脑游戏下载</a>
+              <a href="forum.php?mod=forumdisplay&fid=43"  title="VR电视游戏下载" >VR电视游戏下载</a>
+              <a href="forum.php?mod=forumdisplay&fid=58"  title="VR电脑应用下载" >VR电脑应用下载</a>
+              
+              <a href="forum.php?mod=forumdisplay&fid=51"  title="VR产品视频">VR产品视频</a>
+              <a href="forum.php?mod=forumdisplay&fid=46"  title="VR游戏视频">VR游戏视频</a>
+              <a href="forum.php?mod=forumdisplay&fid=41"  title="VR美女视频" >VR美女视频</a>
+              <a href="forum.php?mod=forumdisplay&fid=44"  title="VR极限运动视频" >VR极限运动视频</a>
+              <a href="forum.php?mod=forumdisplay&fid=42"  title="VR演出现场视频" >VR演出现场视频</a>
+              <a href="forum.php?mod=forumdisplay&fid=45"  title="VR旅游景点视频" >VR旅游景点视频</a>
+              
+              <a href="forum.php?mod=forumdisplay&fid=40"  title="VR设备推荐" >VR设备推荐</a>
+              <a href="forum.php?mod=forumdisplay&fid=52"  title="VR设备测评" >VR设备测评</a>
+              <a href="forum.php?mod=forumdisplay&fid=53"  title="VR新科技" >VR新科技</a>
+              
+              <a href="forum.php?mod=forumdisplay&fid=55"  title="VR视频制作教程" >VR视频制作教程</a>
+              <a href="forum.php?mod=forumdisplay&fid=56"  title="VR视频拍摄教程" >VR视频拍摄教程</a>
+              <a href="forum.php?mod=forumdisplay&fid=57"  title="VR应用开发" >VR应用开发</a>
             </div>
         </div>
         <div class="f_Box4 z">
-            <p>声明：本站所有主题/源码除标明原创外，均来自网络转载，版权归原作者所有，如果有侵犯到您的权益，请联系本站删除，谢谢合作！</p>
-            <p>本站团队成员：
-            	 <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">mrpauper</a> | 
-                 <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">老九</a> |
-                 <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">霸天</a> |
-                 <a href="http://wpa.qq.com/msgrd?v=3&uin=3035511681&site=DZFUNS&menu=yes">申请入团</a>
-			</p>
+            <p>声明：本站所有资源/文章除标明原创外，均来自网络转载，版权归原作者所有，如果有侵犯到您的权益，请联系本站删除，谢谢合作！</p>
+
         </div>
         <div class="clear"></div>
     </div>
-    <div class="f_Box5"> &copy;  2014-2015 <strong><a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a></strong>  All Rights Reserved. | Powered by <a href="http://www.discuz.net" target="_blank" rel="nofollow" >Discuz!</a> <em>$_G['setting']['version']</em><!--{if !empty($_G['setting']['boardlicensed'])}--> <a href="http://license.comsenz.com/?pid=1&host=$_SERVER[HTTP_HOST]" target="_blank">Licensed</a><!--{/if}-->,Theme by <a href="http://www.dzfuns.com" target="_blank" title="dzfuns">Dzfuns</a>  <!--{if $_G['setting']['icp']}--><a href="http://www.miitbeian.gov.cn/" target="_blank">| $_G['setting']['icp']</a> <!--{/if}-->
-    <!--{hook/global_footerlink}-->
-				<!--{if $_G['setting']['statcode']}-->| $_G['setting']['statcode']<!--{/if}-->
+    <div class="f_Box5"> &copy;  2016-2020 <strong><a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a></strong>  All Rights Reserved. | Powered by huang2a <!--{if $_G['setting']['icp']}--><a href="http://www.miitbeian.gov.cn/" target="_blank">| $_G['setting']['icp']</a> <!--{/if}-->
 </div>
 <div class="f_Box6">
 <p class=" xs0">

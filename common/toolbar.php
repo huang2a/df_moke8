@@ -1,4 +1,4 @@
-<?php header('Content-Type: text/html; charset=gbk2312');echo 'www.dzfuns.com QQ:3035511681长期承接Discuz网站建设、discuz仿站修改 安装、升级、搬家等业务';exit;?>
+<?php header('Content-Type: text/html; charset=gbk2312');echo 'VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台';exit;?>
 <!--{if $_G['uid']}-->
 
 <link href="{IMGDIR}/toolbar/iconfont.css" rel="stylesheet" type="text/css"/>
@@ -11,7 +11,7 @@
       <div class="name"><a href="home.php?mod=spacecp&ac=usergroup">$_G[group][grouptitle]</a></div>
       <ul>
         <li class="um-reply"><strong class="vwmy {if $_G['setting']['connect']['allow'] && $_G[member][conisbind]} qq{/if}" style="margin-left:0px;background-position:0px 3px;"><a href="home.php?mod=space&uid=$_G[uid]" class="user-name">$_G[member][username]</a></strong> <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" class="y">退出</a></li>
-        <li><a href="home.php?mod=spacecp">设置中心</a><a href="plugin.php?id=vip:vip" class="y" style="color:#f60">开通VIP</a></li>
+        <li><a href="home.php?mod=spacecp">设置中心</a></li>
       </ul>
     </div>
     <div class="tool-lis"> <a href="forum.php?mod=guide&view=my"> <i class="icon iconfont"></i>
@@ -33,8 +33,7 @@
       <div class="name">金币</div>
       </a>
       <ul>
-        <li>金币：<em style="color:#f60"><!--{eval echo getuserprofile('extcredits2');}--></em>&nbsp;<em class="y"><a href="plugin.php?id=vip:vip">赞助</a></em></li>
-        <li>魔币：<em style="color:#f60"><!--{eval echo getuserprofile('extcredits3');}--></em>&nbsp;<a href="home.php?mod=spacecp&ac=plugin&op=credit&id=evinm_apply:apply" class="y">提现</a><a href="home.php?mod=spacecp&ac=credit&op=buy" style="margin-right:7px;" class="y">充值</a></li>
+        <li>金币：<em style="color:#f60"><!--{eval echo getuserprofile('extcredits2');}--></em>&nbsp;</li>
       </ul>
     </div>
     <div class="tool-lis"> <a onclick="showWindow('nav', this.href, 'get', 0)" href="forum.php?mod=misc&amp;action=nav"> <i class="icon iconfont"></i>
@@ -44,7 +43,7 @@
       <div class="name">任务</div>
       </a>
       <ul style="width:190px;">
-        <li><a href="plugin.php?id=offer:offer">做任务免费赚金币升VIP</a></li>
+        <li><a href="home.php?mod=spacecp&ac=promotion">做任务免费赚金币</a></li>
         <li> </li>
       </ul>
     </div>
@@ -52,8 +51,8 @@
       <div class="name">帮助</div>
       </a>
       <ul>
-        <li><a target="_blank" href="article-8-1.html">关于金币</a><a target="_blank" href="#" class="y">关于VIP特权</a></li>
-        <li><a target="_blank" href="article-10-1.html">关于会员</a> <a target="_blank" href="#" class="y">充值问题反馈</a></li>
+        <li><a target="_blank" href="portal.php?mod=view&aid=29">关于岛国</a><a target="_blank" href="portal.php?mod=view&aid=29" class="y">关于积分</a></li>
+        <li><a target="_blank" href="portal.php?mod=view&aid=33">关于会员等级</a> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1055198140&amp;site=qq&menu=yes" class="y">问题反馈</a></li>
       </ul>
     </div>
     <div class="tool-lis"> <a onclick="window.scrollTo('0','0')" href="javascript:void(0);"> <i class="icon iconfont"></i>
