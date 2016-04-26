@@ -1,0 +1,38 @@
+/**
+* 资源下载分享模板 Dzfuns_Share
+* dzfuns 版权所有 模板购买 www.dzfuns.com
+* 联系QQ3035511681
+* 承接discuz论坛建站相关业务 提供长期售后
+**/
+.xi5, .xi5 a {
+color: #999;
+font-weight: bold;
+font-size: 12px;
+}
+.bm_h strong {
+font-size: 14px;
+}
+.mb10 {
+margin-bottom: 10px;
+}
+#ct {
+margin-bottom: 15px;
+background: url(txtcon_bg.gif) repeat-y scroll 0 0 #FFF;
+}
+.bm_h {
+	background:#fff;
+height: 40px;
+line-height: 40px;
+padding: 0px 20px;
+border-bottom: 1px solid #DCDCDC;
+}
+.col_208 {
+float: left;
+margin-left: 20px;
+padding: 0;
+width: 208px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.frame, .frame-tab{ border:0; margin-bottom:0;}

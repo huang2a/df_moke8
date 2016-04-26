@@ -1,0 +1,196 @@
+<!--{template common/header}-->
+<!--[name]df_moke8_cms教程频道首页单列[/name]-->
+
+<div id="pt" class="bm cl">
+  <div class="z"> <a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em> <a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em> 
+    <!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}--> 
+    $cat[catname] </div>
+</div>
+<style id="diy_style" type="text/css"></style>
+<link href="{$_G['style']['styleimgdir']}/cms_style.css?{VERHASH}" rel="stylesheet" type="text/css" />
+<style>.df_cms_box_w{ width:100%;}.df_cms_content .xl1_elp{ width:90%;}</style>
+<div id="ct" class="ct2 wp cl"> 
+  <!--[diy=diy1]-->
+  <div id="diy1" class="area"></div>
+  <!--[/diy]-->
+  <div class="mn"> 
+    <!--模块1-->
+    <div class="df_cms_box cl">
+      <div class="df_cms_box_w df_cms_z">
+        <div class="df_cms_title cl">
+         <!--[diy=diydf_cmslist_t1]--><div id="diydf_cmslist_t1" class="area"></div><!--[/diy]-->
+         
+        </div>
+        <div class="df_cms_content">
+         <!--[diy=diydf_cmslist_11]--><div id="diydf_cmslist_11" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+      <div class="df_cms_box_w df_cms_y">
+        <div class="df_cms_title cl"> 
+         <!--[diy=diydf_cmslist_t2]--><div id="diydf_cmslist_t2" class="area"></div><!--[/diy]-->
+        
+        </div>
+        <div class="df_cms_content">
+          <!--[diy=diydf_cmslist_12]--><div id="diydf_cmslist_12" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+    </div>
+    <!--模块1 end-->
+     <!--模块2-->
+    <div class="df_cms_box cl">
+      <div class="df_cms_box_w df_cms_z">
+        <div class="df_cms_title cl"> 
+         <!--[diy=diydf_cmslist_t3]--><div id="diydf_cmslist_t3" class="area"></div><!--[/diy]-->
+       
+        </div>
+        <div class="df_cms_content">
+         <!--[diy=diydf_cmslist_13]--><div id="diydf_cmslist_13" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+      <div class="df_cms_box_w df_cms_y">
+        <div class="df_cms_title cl">
+         <!--[diy=diydf_cmslist_t4]--><div id="diydf_cmslist_t4" class="area"></div><!--[/diy]-->
+         
+        </div>
+        <div class="df_cms_content">
+          <!--[diy=diydf_cmslist_14]--><div id="diydf_cmslist_14" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+    </div>
+    <!--模块2 end-->
+    <!--模块3-->
+    <div class="df_cms_box cl">
+      <div class="df_cms_box_w df_cms_z">
+        <div class="df_cms_title cl"> 
+         <!--[diy=diydf_cmslist_t5]--><div id="diydf_cmslist_t5" class="area"></div><!--[/diy]-->
+       
+        </div>
+        <div class="df_cms_content">
+          <!--[diy=diydf_cmslist_15]--><div id="diydf_cmslist_15" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+      <div class="df_cms_box_w df_cms_y">
+        <div class="df_cms_title cl"> 
+         <!--[diy=diydf_cmslist_t6]--><div id="diydf_cmslist_t6" class="area"></div><!--[/diy]-->
+        
+        </div>
+        <div class="df_cms_content">
+          <!--[diy=diydf_cmslist_16]--><div id="diydf_cmslist_16" class="area"></div><!--[/diy]-->
+        </div>
+      </div>
+    </div>
+    <!--模块3 end-->
+     
+  </div>
+  <div class="sd">
+  		<div class="drag">
+			<!--[diy=diyrighttop]--><div id="diyrighttop" class="area"></div><!--[/diy]-->
+		</div>
+  	<!--相关分类-->
+    <!--{if $cat[others]}-->
+		<div class="df_sd_box">
+			<div class="tab cl xi2 f14 cl">
+				<h2>{lang category_related}</h2>
+			</div>
+			<div class="mt20 ml20 ">
+				<ul class="xl xl2 cl">
+					<!--{loop $cat[others] $value}-->
+					<li> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+					<!--{/loop}-->
+				</ul>
+			</div>
+		</div>
+<!--{/if}-->
+  	<!--相关分类 end-->
+    <!--下级分类-->
+  <!--{if $cat[subs]}-->
+			<div class="df_sd_box">
+            <div class="tab cl xi2 f14 cl">
+				 <h2>{lang sub_category}</h2>
+            </div>
+             <div class="mt20 ml20 mb20">
+      <ul class="xl xl2 cl">
+				
+				<!--{loop $cat[subs] $value}-->
+				 <li> <a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a></li>
+				<!--{/loop}-->
+                 </ul>
+    </div>
+			</div>
+			<!--{/if}-->
+  <!--下级分类 END -->
+  	<div class="cl">
+    <div class="cl tab rel">
+      <!--[diy=diydf_cmslist_t7]--><div id="diydf_cmslist_t7" class="area"></div><!--[/diy]-->
+  
+    </div>
+    <div class="bm_c2">
+      <div class="mbm">
+        <div class="projects"> 
+          <!--[diy=diyjptj]-->
+          <div id="diyjptj" class="area"></div>
+          <!--[/diy]--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="cl tab rel">
+     <!--[diy=diydf_cmslist_t8]--><div id="diydf_cmslist_t8" class="area"></div><!--[/diy]-->
+    </div>
+    <div class="bm_c2 ">
+      <div class="mbm">
+        <div class="projects"> 
+          <!--[diy=diyjpzy]-->
+          <div id="diyjpzy" class="area"></div>
+          <!--[/diy]--> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="cl tab rel">
+    <!--[diy=diydf_cmslist_t9]--><div id="diydf_cmslist_t9" class="area"></div><!--[/diy]-->
+   
+    </div>
+    <div class="bm_c2">
+      <div class="mbm">
+        <div class="projects"> 
+          <!--[diy=diyycmb]-->
+          <div id="diyycmb" class="area"></div>
+          <!--[/diy]--> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="cl tab rel">
+     <!--[diy=diydf_cmslist_t10]--><div id="diydf_cmslist_t10" class="area"></div><!--[/diy]--> 
+    </div>
+    <div class="bm_c2 listm list31 rank">
+      <ul>
+        <!--[diy=diytopdown]-->
+        <div id="diytopdown" class="area"></div>
+        <!--[/diy]-->
+        
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div class="cl tab rel">
+       <!--[diy=diydf_cmslist_t11]--><div id="diydf_cmslist_t11" class="area"></div><!--[/diy]--> 
+      </div>
+      <div class="bm_c2 fenlei"> 
+        <!--[diy=diytopdownfl]-->
+        <div id="diytopdownfl" class="area"></div>
+        <!--[/diy]--> 
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--{template common/footer}-->

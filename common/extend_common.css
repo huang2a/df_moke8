@@ -1,0 +1,375 @@
+/**
+* 资源下载分享模板 Dzfuns_Share
+* dzfuns 版权所有 模板购买 www.dzfuns.com
+* 联系QQ3035511681
+* 承接discuz论坛建站相关业务 提供长期售后
+**/
+.block{ margin:0 !important;}
+.ct2 .mn {
+width: 920px;
+}
+
+#dfnav ul {
+    width: 520px;
+    height: 37px;
+    padding: 2px 10px 0 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+#dfnav li {float: left;
+    background: none;
+    font-size: 16px;
+	font-weight: 700;
+    height: 37px;
+    line-height: 36px;
+    margin: 0 5px;
+    padding: 0;
+}
+
+#dfnav li a {
+    height: 36px;
+    padding: 0 8px;
+    border-width: 1px 1px 0;
+    border-color: transparent;
+    border-style: solid;
+    color: #4D4D4D;
+	float: left;
+}
+
+#dfnav li a:hover {
+    background: none;
+    color: #F60;
+    text-decoration: none;
+}
+#dfnav li span{ display:none;}
+#dfnav li.a {
+    background: none;
+    margin: 0 5px;
+}
+
+#dfnav li.a a {
+    color: #4D4D4D;
+}
+
+#dfnav li.a a:hover {
+    color: #F60;
+}
+
+#dfnav li.hover a,#dfnav li.hover a:hover {
+    background: none;
+    border-color: #BABABA;
+    box-shadow: 1px -1px 1px #E0E0E0;
+    color: #F60;
+}
+
+
+
+#dfnav .icn {
+    background: url({STYLEIMGDIR}/hot-ico.gif) no-repeat;
+    width: 22px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: 93px;
+}
+
+#dfnav .icn2 {
+    background: url({STYLEIMGDIR}/new-ico.gif) no-repeat;
+    left: 405px;
+}
+.h_pop {
+    background: url({STYLEIMGDIR}/li_hover.png) no-repeat;
+    width: 219px;
+    margin-top: -1px;
+    padding: 10px;
+    border-right: 1px solid #BABABA;
+    box-shadow: none;
+    border-bottom: 1px solid #BABABA;
+    border-left: none;
+}
+
+.h_pop li {
+    float: left;
+    width: 50%;
+}
+.h_pop li a {
+font-size: 13px;
+display: block;
+padding: 2px 7px;
+color: #666;
+border-bottom: none;
+}
+.h_pop li a:hover {
+    background: #F5F5F5;
+    color: #333;
+}
+
+
+
+
+.projects {
+	margin: 0px 0px 0px;
+	padding: 0;
+border-color: #F1F1F1 #DADADA #DADADA #F1F1F1;
+box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.06);
+}
+.projects a.df_item{ display:block;}
+.projects a.df_item:hover{ text-decoration:none;}
+.projects a.df_item:hover .project-tax{ background:#F2FAFA; color:#555;}
+.projects-thumbnail {
+	position: relative;
+	margin: 0;
+	padding: 0px;
+}
+.col_four {
+	float: left;
+	margin-left: 20px;
+	_margin-left: 15px;
+	margin-right: 2px;
+	padding: 0;
+	width: 260px;
+	margin-bottom: 20px;
+}
+.project-desc {
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	background: #FFFFFF;
+}
+.project-desc p {
+	margin: 0 0 0!important;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.project-desc span {
+background: none repeat scroll 0 0 #F60;
+border-radius: 3px 3px 3px 3px;
+color: #FFF;
+display: inline-block;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0;
+padding: 0 5px;
+position: relative;
+text-transform: uppercase;
+vertical-align: top;
+margin-top: 3px;
+height: 18px;
+line-height: 18px;
+}
+.project-desc span.jh {
+background: none repeat scroll 0 0 #49ACD5;
+}
+.project-desc span.vip {
+background: none repeat scroll 0 0 #EE0003;
+}
+
+
+
+.lanmk {
+	margin: 0 auto 10px;
+	background: #FFFFFF;
+}
+.project-thumbnail-overlay {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	zoom: 1;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.project-to-detail {
+	background: url({STYLEIMGDIR}/lanmk.png) no-repeat scroll 0 0 transparent;
+	position: absolute;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
+	overflow: visible;
+	line-height: 40px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0px 0px -20px;
+	pointer-events: none;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transform: scale(4);
+	-moz-transform: scale(4);
+	-o-transform: scale(4);
+	-ms-transform: scale(4);
+	transform: scale(4);
+	-webkit-transition: all 0.4s ease-in-out 0.2s;
+	-moz-transition: all 0.4s ease-in-out 0.2s;
+	-o-transition: all 0.4s ease-in-out 0.2s;
+	-ms-transition: all 0.4s ease-in-out 0.2s;
+	transition: all 0.4s ease-in-out 0.2s;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="{STYLEIMGDIR}/lanmk.png");
+	_background: none;
+}
+.projects-thumbnail:after {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -8px;
+	border-left-width: 8px;
+	border-right-width: 8px;
+	border-bottom-width: 8px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	-moz-border-end-style: dashed !important;
+	border-bottom-color: #fff;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.projects:hover .project-thumbnail-overlay {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.f12 {
+	font-size: 12px;
+}
+.c999 {
+	color: #999999;
+}
+.projects:hover .project-to-detail {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	pointer-events: auto;
+}
+.project-tax {
+	position: relative;
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	background: #fafafa;
+	font-size: 12px;
+	color: #aaa;
+}
+.project-tax a {
+	color: #aaa;
+}
+.project-desc p a:hover {
+	color: #f60;
+}
+
+/*footer*/
+.main-info {
+width: 100%;
+height: 209px;
+margin-top: 10px;
+padding-top: 68px;
+background: url({STYLEIMGDIR}/backgroundwall.jpg) repeat-x;
+}.main-info dl {
+width: 950px;
+margin: 0 auto;
+height: 140px;
+background: url({STYLEIMGDIR}/blue_bg.png) repeat;
+}
+.main-info dl dt {
+width: 100%;
+padding: 30px 0 6px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 36px;
+color: #FFF;
+text-align: center;
+font-family:"Microsoft yahei";
+}
+    .main-info dl dd {
+width: 100%;
+text-align: center;
+color: #FFF;
+font-size: 20px;
+font-family: Verdana, Geneva, sans-serif;
+font-family: "Microsoft yahei";
+}
+.main-info dl dd a {
+display: inline-block;
+height: 32px;
+line-height: 32px;
+margin-left: 10px;
+padding: 0 12px;
+font-size: 16px;
+color: #FFF;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+background: #00CF58;
+}
+
+
+.footer {
+width: 100%;
+color: #666;
+padding: 25px 0 0 0;
+border-top: 10px #11692E solid;
+background: url({STYLEIMGDIR}/foot-bgg.jpg);
+}
+.f_Grid1 {
+width: 1200px;
+margin: 0 auto;
+background: url({STYLEIMGDIR}/zztfotj.jpg) 0 0 no-repeat;
+}
+.f_Box1, .f_Box2 {width: 120px;padding: 0 0 0 35px;background: url({STYLEIMGDIR}/zztfotz.jpg) right 5px no-repeat;}
+.FL {float: left;display: inline;}
+.f_t {color: #AAA;font-weight: bold;padding: 0 0 8px 0;}
+.dmenu {padding: 0 0 0 13px;line-height: 24px;}
+.footer a {color: #666;}
+.footer a:hover {color: #f60;}
+.f_Box2 {width: 140px;}
+.f_Box3 {width: 400px;padding: 0 10px;background: url({STYLEIMGDIR}/zztfotz.jpg) right 5px no-repeat;}
+#xztag {height: 70px;width: 400px;font-size: 12px;padding: 2px 0 0 0;position: relative;overflow: hidden;}
+#xztag a {background: no-repeat scroll right 11px #1F1F1F;float: left;padding-right: 5px;font-size: 12px !important;text-decoration: none;font-weight: normal !important;
+-webkit-border-radius: 2px 15px 15px 2px;-moz-border-radius: 2px 15px 15px 2px;border-radius: 2px 15px 15px 2px;color: #666;display: block;margin: 0 2px 5px 0;padding: 0px 8px 1px 4px;line-height: 18px;white-space: nowrap;}
+#xztag a:hover{ color:#f60;}
+.f_Box4 {width: 410px;padding: 0 0 0 35px;line-height: 24px;}
+.f_Box4 p {padding: 15px 0 0 0;}
+.f_Box5 {width: 1200px;text-align: center;margin: 25px auto 0 auto;padding: 25px 0 5px;background: url({STYLEIMGDIR}/2zzt_footbg.jpg) 0 0 repeat-x;}
+.f_Box6 p{ text-align:center; padding-bottom:10px;}

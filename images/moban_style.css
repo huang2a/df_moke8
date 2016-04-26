@@ -1,0 +1,40 @@
+/**
+* 资源下载分享模板 Dzfuns_Share
+* dzfuns 版权所有 模板购买 www.dzfuns.com
+* 联系QQ3035511681
+* 承接discuz论坛建站相关业务 提供长期售后
+**/
+.moke8_area {
+margin: 0 auto 20px;
+background-color: #FFF;
+}
+.moketitle {
+padding: 10px 20px;
+border-bottom: 1px solid #DCDCDC;
+font-size: 14px;
+position: relative;
+background-color: #FFF;
+}
+.yh {
+font-family: "微软雅黑";
+}
+.f20 {
+font-size: 20px;
+}
+.f12 {
+font-size: 12px;
+}
+.c999 {
+color: #999;
+}
+.itmore {
+bottom: 14px;
+color: #999;
+font-size: 14px;
+position: absolute;
+right: 20px;
+}
+.mt20 {
+margin-top: 20px;
+}
+.frame, .frame-tab{ border:0; margin-bottom:0;}

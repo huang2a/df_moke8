@@ -1,0 +1,93 @@
+/* CSS cms_style QQ3035511681 HTTP://DZFUNS.TAOBAO.COM */
+#ct {
+margin-bottom: 2px;
+background: url(txtcon_bg.gif) repeat-y scroll 0 0 #FFF;
+}
+.bm{ border:0;}
+.bm_h{ border:0;}
+#ct .mn{ width:930px;}
+#ct .sd{ width:220px;}
+.df_cms_box {
+background:#fff;
+min-height:324px;
+overflow:hidden;
+border-bottom: 1px solid #DCDCDC;
+}
+.df_cms_box .bm_c{ padding:0 20px;}
+.df_cms_title {
+height: 40px;
+line-height: 40px;
+padding: 0px 20px;
+border-bottom: 1px solid #DCDCDC;
+/*border-left:2px solid #4095CE;*/
+}
+.df_cms_title .rss{ background:#f60;  padding:0 10px; color:#fff;}
+.df_cms_title .addnew{ background:#39C;  padding:0 10px; color:#fff; text-align:center;}
+.df_cms_content {
+clear: both;
+padding: 20px;
+/*border-bottom: 1px solid #DCDCDC;*/
+}
+.df_cms_content li{ height:22px; width:auto;}
+.df_cms_content .xl1_elp{ width:360px; color:#4095CE;}
+.df_cms_content li a{ line-height:22px; padding-left:5px;}
+.xl em {
+float: right;
+padding-left: 5px;
+}
+.df_cms_box_w{ width: 50%;min-height:324px;overflow:hidden;}
+.df_cms_box .df_cms_z {
+    border: 0px;   
+	float:left;
+}
+
+.df_cms_box .df_cms_y {
+float: right;
+}
+
+.f14 {
+font-size: 14px;
+font-weight: bold;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.ml20{ margin-left:20px;}
+.df_sd_box{ padding-top:10px;}
+.tab{border-top:1px solid #DCDCDC;height:0;margin:10px 15px;position:relative;width:auto;}
+.tab h2{background:none repeat scroll 0 0 #F1F1F1;color:#666666;font-family:"Î¢ÈíÑÅºÚ",Microsoft YaHei;font-size:14px;font-weight:bold;position:absolute;top:-10px;}
+
+#related_article .bm_c{ margin-left:-15px;}
+#related_article .bm_c li{ margin-left:24px; width:40%;}
+.col_208 {
+float: left;
+margin-left: 20px;
+padding: 0;
+width: 208px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.pgs{ padding:0 10px;}
+.pg a,.pg strong,.pgb a,.pg label {
+    border: 1px solid #CCCCCC;
+    height: 32px;
+    line-height: 32px;
+    padding: 0px 12px;
+}
+
+.pgb a {
+    padding-left: 25px;
+}
+
+.pg strong {
+    background-color: #ff8101;
+    color: #FFFFFF;
+    border: 1px solid #ff6600;
+}

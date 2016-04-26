@@ -1,0 +1,151 @@
+<!--{template common/header}-->
+<!--[name]df_moke8_帮助中心[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<!--{if $cat[subs]}-->
+            <!--{eval $c = DB::fetch_all("select * from pre_portal_category where upid = ".$cat[catid]."  ORDER BY catid");}-->
+            <!--{else}-->
+            <!--{eval $c = DB::fetch_all("select * from pre_portal_category where catid = ".$cat[catid]."  ORDER BY catid");}-->
+<!--{/if}--> 
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+		$cat[catname]
+	</div>
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+<script type="text/javascript">
+function	lm_sandh(id)
+{
+var traget=document.getElementById("m"+id);
+if(traget.style.display=="none"){
+traget.style.display="";
+}else{
+traget.style.display="none";
+}
+}
+</script>
+<style>
+.xl1_elp {
+width: auto;
+}
+.bm_h {
+height: 40px;
+line-height: 40px;
+padding: 0px 20px;
+border-bottom: 1px solid #DCDCDC;
+}
+.bm_h {
+background-color: #FFF;
+border-bottom: 1px solid #DCDCDC;
+}
+.xi2, .xi2 a, .xi3 a {
+color: #F60;
+}
+#sidebar {
+	
+}
+#sidebar .sidetitle {
+	LINE-HEIGHT: 30px; MARGIN-TOP: -1px; BACKGROUND: url({IMGDIR}/sidetitlebg.gif) repeat-x; HEIGHT: 30px; FONT-WEIGHT: bold; padding-left:24px; color:#333
+}
+.sidemenu {
+	BACKGROUND-COLOR: #fff; padding:6px 5px 10px;
+}
+.sidemenu li{ padding:3px 0;height:20px; line-height:20px;
+}
+.sidemenu li a{padding-left:18px; height:20px; line-height:20px; color:#666;display:block; text-decoration:none;}
+.sidemenu li a:hover{ background: url({IMGDIR}/sidetitlebg.gif) no-repeat 0px -30px; 
+}
+.sidemenu .select a, .sidemenu .select a:hover{ background: url({IMGDIR}/sidetitlebg.gif) no-repeat 0px -50px; color:#FFFFFF;
+}
+
+.vwtb{color:#666666}
+.vwtb b{color:#333333}
+.vwtb hr{height:1px;border:none;border-top:1px solid #e3e3e3; width:750px;}
+
+
+</style>
+<div id="ct" class="ct2 wp cl">
+	<div class="mn"  style="float: right; width: 1000px;">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+		<div class="bm">
+   		
+        	   
+             
+            
+              <!--{loop $c $d}-->
+            
+            <div class="bm_h cl" >
+			<h2><!--{if $d[catname]}--><a href="{$portalcategory[$d['catid']]['caturl']}" class="xi2">$d[catname]</a><!--{/if}--></h2>
+			</div>
+            
+			 <!--{eval $a = DB::fetch_all("select * from pre_portal_article_title where catid = ".$d[catid]." ORDER BY dateline");}-->
+           
+         	<div class="bm_c cl">
+            <!--{eval $article_url = fetch_article_url($value);}-->
+<ul class="xs2 xl xl1" style="padding:0px 7px;">
+ <!--{loop $a $b}-->
+<li style="width:270px; float:left"><span class="xl1_elp">&bull; <a href="portal.php?mod=view&aid=$b[aid]" target="_self">$b[title]</a></span>
+</li>
+<!--{/loop}-->
+</ul>
+</div>	
+		
+			
+			<!--{/loop}-->
+            
+            
+		
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}-->
+
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+	</div>
+	<div class="sd" style="float: left; width: 150px;">
+
+<div class="bm">
+<div class="bm_h cl">
+<h2>帮助中心</h2>
+</div>
+<div id="sidebar">
+<!--{if $cat[subs]}-->
+            <!--{eval $cc = DB::fetch_all("select * from pre_portal_category where upid = ".$cat[catid]."  ORDER BY catid");}-->
+            <!--{else}-->
+            <!--{eval $cc = DB::fetch_all("select * from pre_portal_category where catid = ".$cat[catid]."  ORDER BY catid");}-->
+<!--{/if}--> 
+<!--{eval $ii = 1;}-->
+<!--{loop $cc $e}-->
+<h2 style="CURSOR: pointer" class="sidetitle cl" onclick="lm_sandh($ii);"><!--{if $e[catname]}-->$e[catname]<!--{/if}--></h2>
+<!--{eval $a = DB::fetch_all("select * from pre_portal_article_title where catid = ".$e[catid]." ORDER BY dateline");}-->
+ <ul id="m$ii" class="sidemenu cl" style="display:none">
+ <!--{loop $a $f}-->
+<li ><a href="portal.php?mod=view&aid=$f[aid]" target="_self">$f[title]</a></li>
+<!--{/loop}-->
+</ul>
+<!--{eval $ii++;}-->
+<!--{/loop}-->
+             </div>
+</div>   
+
+
+
+</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->
