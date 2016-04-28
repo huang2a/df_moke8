@@ -1,4 +1,4 @@
-<?php echo 'www.dzfuns.com QQ:3035511681 长期承接Discuz网站建设、discuz仿站修改 安装、升级、搬家等业务';exit;?>
+<?php echo 'VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台';exit;?>
 <div id="threadlist" class="tl bm bmw"{if $_G['uid']} style="position: relative;"{/if}>
 	<!--{if $quicksearchlist && !$_GET['archiveid']}-->
 		<!--{subtemplate forum/search_sortoption}-->
@@ -261,7 +261,7 @@
 							<!--{if $_G['hiddenexists'] && $thread['hidden']}-->
 								<!--{eval continue;}-->
 							<!--{/if}-->
-							<!--{if !$thread['forumstick'] && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])}-->
+							<!--{if !$thread['forumstick'] && ($thread['isgroup'] == 8 || $thread['fid'] != $_G['fid'])}-->
 								<!--{if $thread['related_group'] == 0 && $thread['closed'] > 1}-->
 									<!--{eval $thread[tid]=$thread[closed];}-->
 								<!--{/if}-->

@@ -1,4 +1,4 @@
-<?php header('Content-Type: text/html; charset=gbk2312');echo 'www.dzfuns.com QQ:3035511681长期承接Discuz网站建设、discuz仿站修改 安装、升级、搬家等业务';exit;?>
+<?php header('Content-Type: text/html; charset=gbk2312');echo 'VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台';exit;?>
 <!--帖子页-帖子楼层循环模板-->
 <!--{eval
 $needhiddenreply = ($hiddenreplies && $_G['uid'] != $post['authorid'] && $_G['uid'] != $_G['forum_thread']['authorid'] && !$post['first'] && !$_G['forum']['ismoderator']);

@@ -1,4 +1,4 @@
-<?php header('Content-Type: text/html; charset=gbk2312');echo 'www.dzfuns.com QQ:3035511681长期承接Discuz网站建设、discuz仿站修改 安装、升级、搬家等业务';exit;?>
+<?php header('Content-Type: text/html; charset=gbk2312');echo 'VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台';exit;?>
 <div class="pcb">
 <!--{if !$_G['forum']['ismoderator'] && $_G['setting']['bannedmessages'] & 1 && (($post['authorid'] && !$post['username']) || ($_G['thread']['digest'] == 0 && ($post['groupid'] == 4 || $post['groupid'] == 5 || $post['memberstatus'] == '-1')))}-->
 	<div class="locked">{lang message_banned}</div>
