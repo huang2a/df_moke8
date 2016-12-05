@@ -1,4 +1,4 @@
-<?php header('Content-Type: text/html; charset=gbk2312');echo 'www.dzfuns.com QQ:3035511681长期承接Discuz网站建设、discuz仿站修改 安装、升级、搬家等业务';exit;?>
+<?php header('Content-Type: text/html; charset=gbk2312');echo 'VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台';exit;?>
 </div>
 
 
@@ -95,7 +95,7 @@ PADDING-BOTTOM: 10px;
 
 </p>
 <span>
-            $_G['setting']['sitename']专业提供网站模板，网页模板，模板教程，网页制作，程序插件，网站素材等建站资源，我们致为于打造优秀的建站资源共享平台！
+            $_G['setting']['sitename']VR岛国-国内最全面的VR虚拟现实资源分享与技术交流平台
             </span>
 <p>
             Copyright &copy; 2010-2015 <a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a> 版权所有

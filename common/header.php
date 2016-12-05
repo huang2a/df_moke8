@@ -21,6 +21,7 @@ $rsshead<!--{/if}-->
 <!--{if widthauto()}-->
 
 <link rel="stylesheet" id="css_widthauto" type="text/css" href='{$_G['setting']['csspath']}{STYLEID}_widthauto.css?{VERHASH}' />
+
 <script type="text/javascript">HTMLNODE.className += ' widthauto'</script>
 <!--{/if}-->
 <!--{if $_G['basescript'] == 'forum' || $_G['basescript'] == 'group'}-->
@@ -46,7 +47,8 @@ $rsshead<!--{/if}-->
 <script src="{$_G['style']['styleimgdir']}/js/Koala.min.1.5.js?{VERHASH}" type="text/javascript"></script>
 <link href="{$_G['style']['styleimgdir']}/lstyle/zzsc.css?{VERHASH}" type="text/css" rel="stylesheet" />
 <!--{/if}-->
-
+<meta property="qc:admins" content="14153676376624177576375" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 </head>
 <body id="nv_{$_G[basescript]}" class="pg_{CURMODULE}{if $_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)} {$cat['bodycss']}{/if}" onkeydown="if(event.keyCode==27) return false;">
 <div id="append_parent"></div>

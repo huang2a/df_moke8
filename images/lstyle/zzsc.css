@@ -54,13 +54,13 @@ a:hover{text-decoration:underline;color:#ec7d55;}
 .hr20 { height:20px; overflow:hidden; clear:both; }
 .th_1 {margin:10px 0px 10px 0px;height:330px;box-shadow: 0 5px 5px #555;overflow:hidden;} 
 
-.th_1 .flash_box { width:1160px;/* padding:0px 25px;*/ position:relative; overflow:hidden;/*margin-left:15px;*/ }
-.th_1 .flash_box .flash_con { width:1160px; height:330px; overflow:hidden;}
-.th_1 .flash_box .flash_con .split { width:1160px; height:330px; overflow:hidden; position:relative; }
-.th_1 .flash_box .flash_con .split .shadow { width:1160px; height:5px; overflow:hidden; background:#000; z-index:10; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; position:absolute; left:0px; bottom:0px; }
-.th_1 .flash_box .flash_con .split .wz { width:1160px; height:43px; overflow:hidden; border-top:solid 3px #f47346;position:absolute; left:0px; bottom:0px; z-index:20; color:#fff; line-height:30px; padding:10px 0px 0px 30px; text-decoration:none; cursor:pointer; }
+.th_1 .flash_box { width:1150px;/* padding:0px 25px;*/ position:relative; overflow:hidden;/*margin-left:15px;*/ }
+.th_1 .flash_box .flash_con { width:1150px; height:330px; overflow:hidden;}
+.th_1 .flash_box .flash_con .split { width:1150px; height:330px; overflow:hidden; position:relative; }
+.th_1 .flash_box .flash_con .split .shadow { width:1150px; height:5px; overflow:hidden; background:#000; z-index:10; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; position:absolute; left:0px; bottom:0px; }
+.th_1 .flash_box .flash_con .split .wz { width:1150px; height:43px; overflow:hidden; border-top:solid 3px #f47346;position:absolute; left:0px; bottom:0px; z-index:20; color:#fff; line-height:30px; padding:10px 0px 0px 30px; text-decoration:none; cursor:pointer; }
 
-.th_1 .flash_box .f_btn { width:1160px; height:14px; overflow:hidden; text-align:center;position: absolute;
+.th_1 .flash_box .f_btn { width:1150px; height:14px; overflow:hidden; text-align:center;position: absolute;
 top: 290px; }
 .th_1 .flash_box .f_btn .fbtn_con { width:112px; margin:0px auto; height:14px; overflow:hidden; text-align:center; }
 .th_1 .flash_box .f_btn .fbtn_con a { width:12px; height:12px; overflow:hidden; display:block; float:left; background:#fff; margin:0px 6px; text-indent:-999em; outline:0px;  text-decoration:none;border-radius:10px; }
